@@ -1,0 +1,9 @@
+@import "tailwindcss";
+
+
+/* 2. Keep only truly custom styles that Tailwind can't easily do */
+.top-name {
+  background: linear-gradient(to right, #7b0ad8, #FF749D);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
